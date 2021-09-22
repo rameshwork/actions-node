@@ -7,5 +7,3 @@ build-project:
   steps:
   - name: Checkout code
     uses: actions/checkout@v2
-  - name: Install NPM dependencies
-    run: npm install
